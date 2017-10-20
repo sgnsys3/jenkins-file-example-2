@@ -15,6 +15,7 @@ pipeline {
     stage ('development') {
       steps {
         sh 'echo Development'
+        sh 'pwd'
       }
     }
     stage ('production') {
