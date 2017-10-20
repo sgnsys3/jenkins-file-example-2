@@ -16,6 +16,7 @@ pipeline {
       steps {
         sh 'echo Development'
         sh 'pwd'
+        sh 'ls -l'
       }
     }
     stage ('production') {
